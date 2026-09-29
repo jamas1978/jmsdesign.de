@@ -183,3 +183,8 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .project-next a[href="mini.html"] .external-icon{background:#8a3f2b}
 .project-next a[href="cap-anamur.html"] .external-icon{background:#079fd7}
 .project-next a[href="telekom.html"] .external-icon{background:#e20074}
+
+
+/* Work-link directional icon */
+.text-link .external-icon--down{transform:rotate(90deg)}
+.text-link:hover .external-icon--down{transform:translate(3px,3px) rotate(90deg)}
