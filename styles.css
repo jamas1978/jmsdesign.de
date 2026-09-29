@@ -167,3 +167,19 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .contact-mail .external-icon{margin-left:.08em}
 .info-card .external-icon,
 .legal-copy .external-icon{margin-left:.15em}
+
+
+/* Case-specific external-link colours */
+/* Homepage: the external-link icon takes the accent colour of the case it opens. */
+.case-link[href="cases/audi.html"] .external-icon{background:#e3283a}
+.case-link[href="cases/qvest.html"] .external-icon{background:#ef4a16}
+.case-link[href="cases/mini.html"] .external-icon{background:#8a3f2b}
+.case-link[href="cases/cap-anamur.html"] .external-icon{background:#079fd7}
+.case-link[href="cases/telekom.html"] .external-icon{background:#e20074}
+
+/* Case pages: "Next project" icon previews the accent colour of the destination case. */
+.project-next a[href="audi.html"] .external-icon{background:#e3283a}
+.project-next a[href="qvest.html"] .external-icon{background:#ef4a16}
+.project-next a[href="mini.html"] .external-icon{background:#8a3f2b}
+.project-next a[href="cap-anamur.html"] .external-icon{background:#079fd7}
+.project-next a[href="telekom.html"] .external-icon{background:#e20074}
