@@ -90,14 +90,3 @@ img{display:block;max-width:100%}
 .case-mini-page .project-title em{font-style:normal;color:#8a3f2b}.case-mini-page .project-feature{background:#151214}.case-mini-page .project-feature img{object-fit:contain;background:#151214;padding:4vw}.case-telekom-page .project-title em{font-style:normal;color:#e20074}.case-telekom-page .project-feature{background:#e20074}.case-telekom-page .project-feature img{object-fit:contain;background:#fff;padding:3vw}.mini-gallery .gallery-card img,.telecom-gallery .gallery-card img{object-fit:contain;background:#141214;padding:12px}.telecom-gallery .gallery-card img{background:#fff}.telecom-gallery .gallery-card.wide{min-height:430px}
 @media (max-width:1000px){.archive-head{grid-template-columns:1fr}.archive-grid{grid-template-columns:1fr 1fr}.archive-card{min-height:420px}}
 @media (max-width:640px){.archive{padding-top:20px;padding-bottom:90px}.archive-head{margin-bottom:30px}.archive-head h2{font-size:52px}.archive-grid{grid-template-columns:1fr}.archive-card{min-height:380px}.archive-card figcaption{display:block}.archive-card span{display:block;text-align:left;margin-top:5px}.case-mini-page .project-feature img,.case-telekom-page .project-feature img{padding:4vw}}
-
-
-/* v5: high-resolution raster treatment */
-img{image-rendering:auto;-ms-interpolation-mode:bicubic}
-
-/* v7: Cap Anamur featured case */
-.case-cap{background:#079fd7;color:#fff}.case-cap .case-meta{border-color:rgba(255,255,255,.38)}.case-cap .case-tags span{border-color:rgba(255,255,255,.48)}
-.cap-media{background:#fff}.cap-media img{object-fit:cover;object-position:center}
-.case-cap-page .project-title em{font-style:normal;color:#079fd7}.case-cap-page .project-feature{background:#079fd7}.case-cap-page .project-feature img{object-fit:contain;background:#079fd7;padding:3vw}
-.cap-gallery .gallery-card{background:#fff}.cap-gallery .gallery-card img{object-fit:cover}.cap-gallery .gallery-card.wide{min-height:520px}
-@media (max-width:640px){.case-cap-page .project-feature img{padding:3vw}.cap-gallery .gallery-card.wide{min-height:260px}}
