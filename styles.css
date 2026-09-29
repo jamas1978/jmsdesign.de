@@ -146,3 +146,24 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
   .legal-layout{grid-template-columns:1fr;gap:35px;margin-top:50px}
   .legal-nav{position:static}
 }
+
+/* JMS external-link icon */
+.external-icon{
+  display:inline-block;
+  width:.92em;
+  height:.92em;
+  flex:0 0 auto;
+  vertical-align:-.08em;
+  background:currentColor;
+  -webkit-mask:url("assets/icon-external.svg") center/contain no-repeat;
+  mask:url("assets/icon-external.svg") center/contain no-repeat;
+}
+.text-link .external-icon,
+.case-link .external-icon,
+.project-next .external-icon{transition:transform .25s ease}
+.text-link:hover .external-icon,
+.case-link:hover .external-icon,
+.project-next a:hover .external-icon{transform:translate(3px,-3px)}
+.contact-mail .external-icon{margin-left:.08em}
+.info-card .external-icon,
+.legal-copy .external-icon{margin-left:.15em}
