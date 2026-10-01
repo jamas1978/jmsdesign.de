@@ -1,0 +1,16 @@
+Website update — 1 October 2026
+
+Added: LANXESS Mobility and METRO / HORECA Pizza case pages.
+Two homepage previews composed from unmodified original archive images.
+Campaign links use LANXESS red and METRO/HORECA blue-violet arrows.
+Next project sequence: Audi -> QVEST -> MINI -> Cap Anamur -> LANXESS -> METRO -> Audi.
+Telekom In-Flight is retired; its previous URL redirects to selected work.
+LinkedIn footer icon removed from all pages; text link retained.
+English is the default for Legal Notice and Privacy Policy.
+German originals are available via EN | DE (works without JavaScript).
+No AGB page added. Existing legal content translated, without changing its scope.
+Original JMS logo and external-arrow SVG preserved byte-for-byte.
+
+Upload the contents of this folder to the website root, preserving folders.
+Checks: local links/anchors, image decoding, language navigation, JavaScript syntax.
+Browser visual testing could not run: browser download is blocked in this session.
