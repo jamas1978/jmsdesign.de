@@ -24,6 +24,115 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    /* Mobile: archive previews show the complete 4:3 artwork without cropping */
+    @media (max-width: 767px) {
+      .archive-card {
+        min-height: 0 !important;
+        overflow: hidden;
+      }
+
+      .archive-card > img {
+        display: block;
+        width: 100%;
+        height: auto !important;
+        aspect-ratio: 4 / 3;
+        object-fit: contain !important;
+        object-position: center center;
+      }
+    }
+  </style>
+
+
+  <style>
+    /* Mobile navigation */
+    .mobile-menu-toggle,
+    .mobile-menu-panel {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      .main-nav,
+      .site-header .availability {
+        display: none !important;
+      }
+
+      .mobile-menu-toggle {
+        display: flex;
+        position: relative;
+        z-index: 1002;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 7px;
+        cursor: pointer;
+        appearance: none;
+      }
+
+      .mobile-menu-toggle span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 999px;
+        transition: transform .22s ease, opacity .22s ease;
+        transform-origin: center;
+      }
+
+      .mobile-menu-toggle[aria-expanded="true"] span:first-child {
+        transform: translateY(4.5px) rotate(45deg);
+      }
+
+      .mobile-menu-toggle[aria-expanded="true"] span:last-child {
+        transform: translateY(-4.5px) rotate(-45deg);
+      }
+
+      .mobile-menu-panel {
+        position: fixed;
+        inset: 0;
+        z-index: 1001;
+        padding: 140px 32px 48px;
+        background: #f4f3ef;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 12px;
+      }
+
+      .mobile-menu-panel:not([hidden]) {
+        display: flex;
+      }
+
+      .mobile-menu-panel a {
+        display: block;
+        width: 100%;
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(20,20,24,.18);
+        color: #141418;
+        text-decoration: none;
+        font-size: clamp(42px, 13vw, 68px);
+        line-height: .95;
+        font-weight: 600;
+        letter-spacing: -.04em;
+      }
+
+      body.mobile-menu-open {
+        overflow: hidden;
+      }
+
+      .site-header {
+        z-index: 1003;
+      }
+    }
+  </style>
+
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -41,6 +150,20 @@
       <span class="availability-dot" aria-hidden="true"></span>
       Available for freelance projects
     </a>
+
+    <button class="mobile-menu-toggle" type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+            aria-controls="mobile-menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="mobile-menu-panel" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work</a>
+      <a href="#profile">Profile</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
   <main id="top">
@@ -253,5 +376,40 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <script>
+    (() => {
+      const toggle = document.querySelector('.mobile-menu-toggle');
+      const menu = document.querySelector('.mobile-menu-panel');
+      if (!toggle || !menu) return;
+
+      const closeMenu = () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation');
+        menu.hidden = true;
+        document.body.classList.remove('mobile-menu-open');
+      };
+
+      const openMenu = () => {
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Close navigation');
+        menu.hidden = false;
+        document.body.classList.add('mobile-menu-open');
+      };
+
+      toggle.addEventListener('click', () => {
+        toggle.getAttribute('aria-expanded') === 'true' ? closeMenu() : openMenu();
+      });
+
+      menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeMenu);
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 767) closeMenu();
+      });
+    })();
+  </script>
+
 </body>
 </html>
