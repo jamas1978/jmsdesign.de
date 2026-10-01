@@ -43,6 +43,108 @@
       }
     }
   </style>
+
+  <style>
+    /* Mobile navigation — compact coloured panel */
+    .mobile-menu-toggle,
+    .mobile-menu-panel {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      .main-nav,
+      .site-header .availability {
+        display: none !important;
+      }
+
+      .mobile-menu-toggle {
+        display: flex;
+        position: relative;
+        z-index: 1102;
+        width: 42px;
+        height: 42px;
+        margin-left: auto;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: #d62b82;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 7px;
+        cursor: pointer;
+        appearance: none;
+      }
+
+      .mobile-menu-toggle span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 999px;
+        transition: transform .22s ease, opacity .22s ease;
+        transform-origin: center;
+      }
+
+      .mobile-menu-toggle[aria-expanded="true"] span:first-child {
+        transform: translateY(4.5px) rotate(45deg);
+      }
+
+      .mobile-menu-toggle[aria-expanded="true"] span:last-child {
+        transform: translateY(-4.5px) rotate(-45deg);
+      }
+
+      .mobile-menu-panel {
+        position: fixed;
+        left: 18px;
+        right: 18px;
+        z-index: 1101;
+        padding: 18px 22px 20px;
+        background: #d62b82;
+        border-radius: 22px;
+        box-shadow: 0 20px 50px rgba(20,20,24,.16);
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        overflow: hidden;
+        max-height: 46dvh;
+      }
+
+      .mobile-menu-panel:not([hidden]) {
+        display: flex;
+      }
+
+      .mobile-menu-panel a {
+        display: flex;
+        align-items: center;
+        min-height: 62px;
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255,255,255,.32);
+        color: #fff;
+        text-decoration: none;
+        font-family: "Inter Tight", sans-serif;
+        font-size: clamp(30px, 9vw, 42px);
+        line-height: .95;
+        font-weight: 600;
+        letter-spacing: -.035em;
+      }
+
+      .mobile-menu-panel a:last-child {
+        border-bottom: 0;
+      }
+
+      body.mobile-menu-open {
+        overflow: hidden;
+      }
+
+      .site-header {
+        z-index: 1103;
+      }
+    }
+  </style>
+
+
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -61,18 +163,23 @@
       Available for freelance projects
     </a>
 
-    <button class="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+    <button class="mobile-menu-toggle" type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+            aria-controls="mobile-menu">
       <span></span>
       <span></span>
     </button>
-</header>
+  </header>
+
   <nav class="mobile-menu-panel" id="mobile-menu" aria-label="Mobile navigation" hidden>
     <a href="#work">Work</a>
     <a href="#profile">Profile</a>
     <a href="contact.html">Contact</a>
   </nav>
 
-<main id="top">
+
+  <main id="top">
     <section class="hero section-shell">
       <div class="hero-kicker reveal">
         <span>Jan Marko Schneider</span>
@@ -282,5 +389,51 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <script>
+    (() => {
+      const toggle = document.querySelector('.mobile-menu-toggle');
+      const menu = document.querySelector('.mobile-menu-panel');
+      if (!toggle || !menu) return;
+
+      const closeMenu = () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation');
+        menu.hidden = true;
+        document.body.classList.remove('mobile-menu-open');
+      };
+
+      const positionMenu = () => {
+        const header = document.querySelector('.site-header');
+        const headerBottom = header ? header.getBoundingClientRect().bottom : 84;
+        menu.style.top = `${Math.max(12, headerBottom + 10)}px`;
+      };
+
+      const openMenu = () => {
+        positionMenu();
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Close navigation');
+        menu.hidden = false;
+        document.body.classList.add('mobile-menu-open');
+      };
+
+      toggle.addEventListener('click', () => {
+        toggle.getAttribute('aria-expanded') === 'true' ? closeMenu() : openMenu();
+      });
+
+      menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeMenu);
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 767) {
+          closeMenu();
+        } else if (toggle.getAttribute('aria-expanded') === 'true') {
+          positionMenu();
+        }
+      });
+    })();
+  </script>
+
 </body>
 </html>
