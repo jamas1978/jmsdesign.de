@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=261001-4" />
 <style>.reveal{opacity:1!important;transform:none!important}</style>
 </head>
 <body>
@@ -29,7 +29,18 @@
       <span class="availability-dot" aria-hidden="true"></span>
       Available for freelance projects
     </a>
-  </header>
+  
+    <button class="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span>
+      <span></span>
+    </button>
+</header>
+  <nav class="mobile-menu-panel" id="mobile-menu" aria-label="Mobile navigation" hidden>
+    <a href="index.html#work">Work</a>
+    <a href="index.html#profile">Profile</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
 
   <main id="top">
     <section class="hero section-shell">
@@ -232,6 +243,6 @@
     <p>Creative direction, built with intent.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=261001-4"></script>
 </body>
 </html>
