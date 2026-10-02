@@ -324,3 +324,13 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 @media(max-width:640px){.project-story.executive-story{padding-bottom:56px}.case-capabilities{padding-bottom:72px}.capability-tags span{font-size:10px}}
 
 .media-credit{margin:14px 0 0;color:var(--muted);font-size:11px;letter-spacing:.02em}.media-credit a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+/* Homepage headline accents echo the individual case colours. */
+.index-accent{color:inherit}
+.index-accent--site{color:var(--pink)}
+.index-accent--audi{color:#e3283a}
+.index-accent--qvest{color:#ef4a16}
+.index-accent--mini{color:#c9785c}
+.index-accent--cap{color:#ffffff}
+.index-accent--lanxess{color:#c51a32}
+.index-accent--metro{color:#353184}
