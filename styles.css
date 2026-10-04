@@ -364,3 +364,33 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
     min-height:0;
   }
 }
+
+
+/* LANXESS Green Mobility — uniform campaign grid */
+.case-lanxess-page .lanxess-mobility-gallery{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+.case-lanxess-page .lanxess-mobility-gallery .gallery-card:not(.wide){
+  min-height:0;
+  aspect-ratio:2022 / 1434;
+  display:block;
+  background:#e8e6e0;
+}
+.case-lanxess-page .lanxess-mobility-gallery .gallery-card:not(.wide) img{
+  width:100%;
+  height:100%;
+  max-height:none;
+  padding:0;
+  object-fit:contain;
+  object-position:center;
+}
+@media(max-width:640px){
+  .case-lanxess-page .lanxess-mobility-gallery{
+    grid-template-columns:1fr;
+  }
+  .case-lanxess-page .lanxess-mobility-gallery .gallery-card:not(.wide){
+    aspect-ratio:2022 / 1434;
+    min-height:0;
+  }
+}
