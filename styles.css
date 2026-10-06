@@ -394,3 +394,31 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
     min-height:0;
   }
 }
+
+
+/* Headline tracking — slightly more open */
+.hero-title,
+.project-title,
+.info-title{
+  letter-spacing:-.05em;
+}
+
+.section-head h2,
+.profile-intro h2,
+.case-copy h3,
+.statement p,
+.gallery-head h2,
+.project-next a,
+.archive-head h2{
+  letter-spacing:-.045em;
+}
+
+.contact-mail{
+  letter-spacing:-.055em;
+}
+
+.cap-row h3,
+.info-card h2,
+.legal-copy h2{
+  letter-spacing:-.025em;
+}
