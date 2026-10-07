@@ -92,15 +92,15 @@
       deTitle: 'Kontakt — JMS · Jan Marko Schneider',
       deDescription: 'Kontakt zu Jan Marko Schneider — Creative Director & Creative Lead in Köln.',
       one: {
-        '.info-title': 'Lass uns <span class="accent">sprechen.</span>',
-        '.info-intro': 'Für ausgewählte Projekte, Creative-Leadership-Rollen sowie Marken- und Unternehmenskommunikation erreichst du mich am schnellsten per E-Mail oder Telefon.',
+        '.info-title': 'Im <span class="accent">Austausch.</span>',
+        '.info-intro': 'Für Projekte, Creative Leadership sowie Marken- und Unternehmenskommunikation erreichst du mich am schnellsten per E-Mail oder Telefon.',
         '.info-card:nth-child(3) address': 'Jan Marko Schneider<br>Siemensstraße 18<br>50825 Köln<br>Deutschland',
         '.info-card:nth-child(4) a span:nth-of-type(1)': 'Profil ansehen'
       },
       many: [
         ['.info-kicker span', ['Kontakt','Köln · Deutschland']],
         ['.info-card .info-label', ['E-Mail','Telefon','Studio','Netzwerk']],
-        ['.info-card h2', ['Schreib mir.','Ruf mich an.','JMS Design.','LinkedIn.']]
+        ['.info-card h2', ['Nachricht senden.','Persönlicher Austausch.','JMS Design.','LinkedIn.']]
       ]
     },
 
