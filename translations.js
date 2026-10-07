@@ -17,7 +17,7 @@
       deDescription: 'Jan Marko Schneider — Creative Director & Creative Lead für Marke, Unternehmenskommunikation und integrierte Kampagnen.',
       one: {
         '.hero-kicker span:nth-child(2)': 'Creative Director · Köln',
-        '.hero-title': 'Ideen, Systeme<br><span class="accent-word">& Geschichten</span> für<br>Marken in Bewegung.',
+        '.hero-title': '<span class="hero-de-desktop">Ideen, Systeme<br><span class="accent-word">& Geschichten</span> für<br>Marken in Bewegung.</span><span class="hero-de-mobile">Ideen, Systeme<br><span class="accent-word">& Geschichten</span><br>für Marken<br>in Bewegung.</span>',
         '.hero-intro': 'Creative Director & Creative Lead an der Schnittstelle von <strong>Marke, Unternehmenskommunikation und integrierten Kampagnen.</strong>',
         '.hero-bottom .text-link': 'Projekte <span class="external-icon external-icon--down" aria-hidden="true"></span>',
         '.work .section-head .eyebrow': 'Projekte',
