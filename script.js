@@ -33,7 +33,7 @@ if (reduced) {
 
   const closeMenu = () => {
     toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', 'Open navigation');
+    toggle.setAttribute('aria-label', toggle.dataset.labelOpen || 'Open navigation');
     menu.hidden = true;
     document.body.classList.remove('mobile-menu-open');
   };
@@ -47,7 +47,7 @@ if (reduced) {
   const openMenu = () => {
     positionMenu();
     toggle.setAttribute('aria-expanded', 'true');
-    toggle.setAttribute('aria-label', 'Close navigation');
+    toggle.setAttribute('aria-label', toggle.dataset.labelClose || 'Close navigation');
     menu.hidden = false;
     document.body.classList.add('mobile-menu-open');
   };
@@ -67,4 +67,14 @@ if (reduced) {
       positionMenu();
     }
   });
+})();
+
+
+/* Load the central language layer relative to this script, so it also works on /cases/. */
+(() => {
+  const current = document.currentScript;
+  const base = current && current.src ? current.src.replace(/script\.js(?:\?.*)?$/, '') : '';
+  const i18n = document.createElement('script');
+  i18n.src = base + 'translations.js?v=261007-i18n';
+  document.body.appendChild(i18n);
 })();
