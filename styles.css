@@ -422,3 +422,16 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .legal-copy h2{
   letter-spacing:-.025em;
 }
+
+
+/* German mobile hero line breaks */
+.hero-de-mobile{display:none}
+@media (max-width:640px){
+  html[lang="de"] .hero-title{
+    font-size:min(14.8vw,76px);
+    line-height:.86;
+  }
+  html[lang="de"] .hero-de-desktop{display:none}
+  html[lang="de"] .hero-de-mobile{display:inline}
+  html[lang="de"] .hero-de-mobile{white-space:normal}
+}
