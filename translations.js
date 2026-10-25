@@ -84,7 +84,7 @@
         ['.cap-row h3', ['Verstehen','Verdichten','Entwickeln']],
         ['.cap-row p', ['Fragen stellen, Zusammenhänge erkennen und sich in Marke, Thema und Zielgruppe vertiefen.','Das Wesentliche herausarbeiten, Ansätze hinterfragen und erkennen, welche Idee wirklich zur Aufgabe passt.','Aus der richtigen Idee ein Konzept, eine Geschichte oder Kampagne machen — von der ersten Skizze bis zur Umsetzung.']],
         ['.profile-main p', ['Für mich bedeutet kreative Führung, eine klare Richtung zu entwickeln, Entscheidungen zu treffen und Menschen für gute Ideen zu gewinnen. Dafür höre ich genau hin, hinterfrage Zusammenhänge und entwickle einen eigenen Blick auf die Aufgabe.','Ich arbeite gerne mit unterschiedlichen Menschen und Perspektiven, bringe Ideen zusammen und schaffe Orientierung – gerade bei komplexen Aufgaben. Dabei gebe ich kreativen Teams Raum, schaffe die Voraussetzungen für gute Arbeit und vertrete Konzepte mit Überzeugung. Und wenn es die Aufgabe verlangt, steige ich auch selbst tief in die Gestaltung ein.','Ich glaube an klare Kommunikation, gegenseitiges Vertrauen und Verantwortung statt Selbstdarstellung. An einen hohen Anspruch, ohne unnötige Kompliziertheit. Und daran, dass gute Zusammenarbeit auch Spaß machen darf.']],
-        ['.statement p', ['Anspruchsvoll in der Sache.<br>Unkompliziert im Miteinander.','Und am besten <span>mit Spaß an der Sache.</span>']],
+        ['.statement p', ['Anspruchsvoll in der Sache.','<span>Entspannt im Miteinander.</span>']],
         ['.contact-kicker span', ['Interesse an einer Zusammenarbeit?','Lass uns sprechen.']]
       ]
     },
