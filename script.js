@@ -75,6 +75,6 @@ if (reduced) {
   const current = document.currentScript;
   const base = current && current.src ? current.src.replace(/script\.js(?:\?.*)?$/, '') : '';
   const i18n = document.createElement('script');
-  i18n.src = base + 'translations.js?v=261008-positioning';
+  i18n.src = base + 'translations.js?v=261025-profile-v1';
   document.body.appendChild(i18n);
 })();
