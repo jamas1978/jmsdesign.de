@@ -27,10 +27,10 @@
         '.archive-head h2': 'Unterschiedliche Branchen.<br>Gleicher Anspruch.',
         '.archive-head > p': 'Ein kompakter visueller Querschnitt, der das Gesamtbild erweitert, ohne die Startseite in einen Katalog zu verwandeln.',
         '.capabilities .section-head .eyebrow': 'Wie ich arbeite',
-        '.capabilities .section-head h2': 'Strategie trifft Gestaltung.',
-        '.capabilities .section-head .section-copy': 'Gute Gestaltung beginnt, bevor gestaltet wird. Ich schaue zuerst auf die Aufgabe, hinterfrage das Offensichtliche und suche die Idee, die allem Weiteren eine klare Richtung gibt.',
+        '.capabilities .section-head h2': 'Je komplexer das Thema, desto klarer die Idee.',
+        '.capabilities .section-head .section-copy': 'Ich mag Aufgaben, bei denen die Lösung nicht auf der Hand liegt. Ich arbeite mich tief in Themen ein, hinterfrage Zusammenhänge und finde heraus, was für Marke und Zielgruppe wirklich zählt. Daraus entwickle ich klare, eigenständige Ideen und Kampagnen. Und ich erkenne, welcher Ansatz trägt — egal ob er von mir, aus einem Team oder von KI kommt.',
         '.profile-intro .eyebrow': 'Zusammenarbeit',
-        '.profile-intro h2': 'Klar im Denken.<br>Offen im Austausch.<br>Hoher Anspruch.',
+        '.profile-intro h2': 'Tief im Thema.<br>Klar in der Idee.<br>Offen im Miteinander.',
         '.profile-aside .aside-label': 'Ausgewählte Stationen',
         '.profile-aside .text-link': 'CV anfragen <span class="external-icon" aria-hidden="true"></span>',
         '.contact-bottom p': 'Creative Director · Creative Lead<br>Brand & Corporate Communications · Köln',
@@ -81,9 +81,9 @@
         ['.work > article:nth-of-type(6) .case-proof span', ['Agentur · Liquid Campaign','Kunde · METRO / HORECA Select']],
 
         ['.archive-card figcaption span', ['Produkt- & B2B-Kommunikation','Premium Selection · Gebrauchtwagenkampagne','AYANGO · Kampagnendesign','Editorial Design · Art Direction']],
-        ['.cap-row h3', ['Verstehen','Entwickeln','Umsetzen']],
-        ['.cap-row p', ['Erst den Kern der Aufgabe verstehen, bevor entschieden wird, wie die Lösung aussehen soll.','Aus Strategie werden starke Ideen, Geschichten und visuelle Systeme mit klarer Haltung.','Ideen über die Präsentation hinausdenken — in Kommunikation, die über Kanäle, Teams und Anwendungen funktioniert.']],
-        ['.profile-main p', ['Ich arbeite direkt, offen und lösungsorientiert. Ich stelle Fragen, bringe Struktur in komplexe Aufgaben und hinterfrage Ideen, wenn es eine bessere Antwort gibt.','Ich bewege mich genauso selbstverständlich im großen Bild wie im Detail, wenn es darauf ankommt. Kein Theater. Keine Gestaltung um der Gestaltung willen — sondern gute Gedanken, starke Arbeit und der gemeinsame Anspruch, Dinge besser zu machen.']],
+        ['.cap-row h3', ['Verstehen','Verdichten','Entwickeln']],
+        ['.cap-row p', ['Fragen stellen, Zusammenhänge erkennen und sich in Marke, Thema und Zielgruppe vertiefen.','Das Wesentliche herausarbeiten, Ansätze hinterfragen und erkennen, welche Idee wirklich zur Aufgabe passt.','Aus der richtigen Idee ein Konzept, eine Geschichte oder Kampagne machen — von der ersten Skizze bis zur Umsetzung.']],
+        ['.profile-main p', ['Ich höre lieber erst einmal zu, denke mit und bilde mir eine Meinung. Wenn ich eine Richtung vorschlage, kann ich erklären, warum. Ich muss nicht am meisten reden, um etwas beizutragen, das wirklich weiterhilft.','Ich übernehme gerne kreative Verantwortung, gebe anderen Raum und schätze unterschiedliche Perspektiven. Ob ich selbst gestalte, ein Team begleite oder Ideen vor größerem Publikum präsentiere: Entscheidend sind für mich gute Arbeit und ein gutes Miteinander — mit klaren Worten, gegenseitigem Vertrauen und Humor.']],
         ['.statement p', ['Anspruchsvoll in der Sache.<br>Unkompliziert im Miteinander.','Und am besten <span>mit Spaß an der Sache.</span>']],
         ['.contact-kicker span', ['Interesse an einer Zusammenarbeit?','Lass uns sprechen.']]
       ]
