@@ -435,3 +435,14 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
   html[lang="de"] .hero-de-mobile{display:inline}
   html[lang="de"] .hero-de-mobile{white-space:normal}
 }
+
+
+/* Profile V1 — keep the longer DE/EN headlines readable on desktop and mobile */
+.capabilities .section-head h2{font-size:clamp(42px,4.8vw,76px);line-height:1.01}
+.profile-intro h2{font-size:clamp(42px,5.7vw,82px);line-height:1}
+.profile-main{font-size:clamp(25px,2.6vw,37px);line-height:1.18;letter-spacing:-.025em}
+@media (max-width:640px){
+  .capabilities .section-head h2{font-size:clamp(40px,10.2vw,58px)}
+  .profile-intro h2{font-size:clamp(27px,7.6vw,45px);line-height:1.06}
+  .profile-main{font-size:clamp(24px,6vw,30px)}
+}
