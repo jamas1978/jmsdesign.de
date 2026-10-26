@@ -29,10 +29,16 @@
         '.capabilities .section-head .eyebrow': 'Wie ich arbeite',
         '.capabilities .section-head h2': 'Je komplexer das Thema, desto klarer die Idee.',
         '.capabilities .section-head .section-copy': 'Ich mag Aufgaben, bei denen die Lösung nicht auf der Hand liegt. Ich arbeite mich tief in Themen ein, hinterfrage Zusammenhänge und finde heraus, was für Marke und Zielgruppe wirklich zählt. Daraus entwickle ich klare, eigenständige Ideen und Kampagnen. Und ich erkenne, welcher Ansatz trägt — egal ob er von mir, aus einem Team oder von KI kommt.',
+        '.positioning .eyebrow': 'Mehr als Gestaltung',
+        '.positioning h2': 'Kreative Richtung.<br>Gemeinsamer Anspruch.<br><span>Verantwortung.</span>',
+        '.positioning-copy > p': 'Über 25 Jahre Erfahrung in Marken- und Unternehmenskommunikation. Ich entwickle kreative Richtungen, bringe unterschiedliche Stärken zusammen und übernehme Verantwortung – von der ersten Idee bis zum gemeinsamen Ergebnis.',
+        '.positioning-links a:nth-child(1)': 'Mehr über mich <span class="external-icon external-icon--down" aria-hidden="true"></span>',
+        '.positioning-links a:nth-child(2)': 'Ins Gespräch kommen <span class="external-icon" aria-hidden="true"></span>',
         '.profile-intro .eyebrow': 'Zusammenarbeit',
         '.profile-intro h2': 'Tief im Thema.<br>Klar in der Idee.<br>Offen im Miteinander.',
         '.profile-aside .aside-label': 'Ausgewählte Stationen',
         '.profile-aside .text-link': 'CV anfragen <span class="external-icon" aria-hidden="true"></span>',
+        '.profile-aside li:first-child em': 'Senior Art Director · Creative Lead in ausgewählten Projekten',
         '.contact-bottom p': 'Creative Director · Creative Lead<br>Brand & Corporate Communications · Köln',
         '.contact-links a': 'Nach oben ↑'
       },
@@ -94,11 +100,14 @@
       deDescription: 'Kontakt zu Jan Marko Schneider — Creative Director & Creative Lead in Köln.',
       one: {
         '.info-title': 'Im <span class="accent">Austausch.</span>',
-        '.info-intro': 'Für Projekte, Creative Leadership sowie Marken- und Unternehmenskommunikation erreichst du mich am schnellsten per E-Mail oder Telefon.',
+        '.info-intro': 'Ob kreatives Projekt oder Führungsaufgabe: Ich freue mich darauf, im persönlichen Austausch herauszufinden, was wir gemeinsam bewegen können.',
         '.info-card:nth-child(3) address': 'Jan Marko Schneider<br>Siemensstraße 18<br>50825 Köln<br>Deutschland',
         '.info-card:nth-child(4) a span:nth-of-type(1)': 'Profil ansehen'
       },
       many: [
+        ['.contact-path-kicker', ['Für Marken & Agenturen','Für Unternehmen & Recruiting']],
+        ['.contact-path-title', ['Projekt besprechen.','Über Führung sprechen.']],
+        ['.contact-path-copy', ['Creative Direction, Markenkommunikation oder eine spannende neue Aufgabe.','Creative Lead, Creative Director und Führungspositionen im Markenbereich.']],
         ['.info-kicker span', ['Kontakt','Köln · Deutschland']],
         ['.info-card .info-label', ['E-Mail','Telefon','Studio','Netzwerk']],
         ['.info-card h2', ['Nachricht senden.','Persönlicher Austausch.','JMS Design.','LinkedIn.']]
