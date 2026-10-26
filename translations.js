@@ -37,7 +37,7 @@
         '.profile-intro .eyebrow': 'Zusammenarbeit',
         '.profile-intro h2': 'Tief im Thema.<br>Klar in der Idee.<br>Offen im Miteinander.',
         '.profile-aside .aside-label': 'Ausgewählte Stationen',
-        '.profile-aside .text-link': 'CV anfragen <span class="external-icon" aria-hidden="true"></span>',
+        '.profile-aside .text-link': 'CV herunterladen (PDF) <span class="external-icon" aria-hidden="true"></span>',
         '.profile-aside li:first-child em': 'Senior Art Director · Creative Lead in ausgewählten Projekten',
         '.contact-bottom p': 'Creative Director · Creative Lead<br>Brand & Corporate Communications · Köln',
         '.contact-links a': 'Nach oben ↑'
@@ -101,6 +101,8 @@
       one: {
         '.info-title': 'Im <span class="accent">Austausch.</span>',
         '.info-intro': 'Ob kreatives Projekt oder Führungsaufgabe: Ich freue mich darauf, im persönlichen Austausch herauszufinden, was wir gemeinsam bewegen können.',
+        '.contact-cv-intro': 'Für Bewerbungen und Gespräche zu Führungspositionen',
+        '.contact-cv .text-link': 'CV herunterladen (PDF) <span class="external-icon" aria-hidden="true"></span>',
         '.info-card:nth-child(3) address': 'Jan Marko Schneider<br>Siemensstraße 18<br>50825 Köln<br>Deutschland',
         '.info-card:nth-child(4) a span:nth-of-type(1)': 'Profil ansehen'
       },
@@ -349,6 +351,13 @@
     if (persist) localStorage.setItem(STORAGE_KEY,lang);
     common(lang);
     content(lang);
+
+    // Keep the PDF download matched to the selected page language.
+    const cvName = lang === 'de' ? 'Jan_Marko_Schneider_CV_DE.pdf' : 'Jan_Marko_Schneider_CV_EN.pdf';
+    document.querySelectorAll('a.cv-download').forEach(link => {
+      link.setAttribute('href', (isCase ? '../' : '') + 'assets/cv/' + cvName);
+      link.setAttribute('download', cvName);
+    });
 
     const switcher = document.querySelector('.language-switch');
     if (switcher && !fixedPages[file]) {
