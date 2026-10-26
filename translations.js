@@ -101,8 +101,6 @@
       one: {
         '.info-title': 'Im <span class="accent">Austausch.</span>',
         '.info-intro': 'Ob kreatives Projekt oder Führungsaufgabe: Ich freue mich darauf, im persönlichen Austausch herauszufinden, was wir gemeinsam bewegen können.',
-        '.contact-cv-intro': 'Für Bewerbungen und Gespräche zu Führungspositionen',
-        '.contact-cv .text-link': 'CV herunterladen (PDF) <span class="external-icon" aria-hidden="true"></span>',
         '.info-card:nth-child(3) address': 'Jan Marko Schneider<br>Siemensstraße 18<br>50825 Köln<br>Deutschland',
         '.info-card:nth-child(4) a span:nth-of-type(1)': 'Profil ansehen'
       },
