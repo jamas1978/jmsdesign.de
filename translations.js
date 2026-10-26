@@ -107,9 +107,6 @@
         '.info-card:nth-child(4) a span:nth-of-type(1)': 'Profil ansehen'
       },
       many: [
-        ['.contact-path-kicker', ['Für Marken & Agenturen','Für Unternehmen & Recruiting']],
-        ['.contact-path-title', ['Projekt besprechen.','Über Führung sprechen.']],
-        ['.contact-path-copy', ['Creative Direction, Markenkommunikation oder eine spannende neue Aufgabe.','Creative Lead, Creative Director und Führungspositionen im Markenbereich.']],
         ['.info-kicker span', ['Kontakt','Köln · Deutschland']],
         ['.info-card .info-label', ['E-Mail','Telefon','Studio','Netzwerk']],
         ['.info-card h2', ['Nachricht senden.','Persönlicher Austausch.','JMS Design.','LinkedIn.']]
