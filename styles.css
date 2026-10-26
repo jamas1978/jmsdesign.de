@@ -446,3 +446,24 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
   .profile-intro h2{font-size:clamp(27px,7.6vw,45px);line-height:1.06}
   .profile-main{font-size:clamp(24px,6vw,30px)}
 }
+
+
+/* Positioning and enquiry paths — 26 October 2026 */
+#work,#profile,#approach{scroll-margin-top:105px}
+.positioning{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(300px,.7fr);align-items:end;gap:clamp(40px,6vw,110px);padding-top:112px;padding-bottom:122px;border-bottom:1px solid var(--line)}
+.positioning-heading .eyebrow{margin:0 0 32px}
+.positioning-heading h2{margin:0;font-size:clamp(49px,6.6vw,105px);font-weight:500;letter-spacing:-.055em;line-height:.95}
+.positioning-heading h2 span{color:var(--pink)}
+.positioning-copy{padding-bottom:8px}
+.positioning-copy>p{font-size:clamp(21px,2vw,32px);letter-spacing:-.025em;line-height:1.25;margin:0 0 38px;max-width:600px}
+.positioning-links{display:flex;flex-wrap:wrap;gap:22px 32px}
+.positioning-links .text-link{justify-self:auto}
+.contact-pathways{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:80px}
+.contact-path{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-height:254px;padding:28px 32px;border:1px solid var(--line);border-radius:18px;text-decoration:none;transition:border-color .2s,background .2s}
+.contact-path:hover,.contact-path:focus-visible{border-color:var(--pink);background:rgba(206,45,120,.035)}
+.contact-path-kicker{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.contact-path-title{font-size:clamp(31px,3.5vw,54px);line-height:1;letter-spacing:-.045em;font-weight:500;margin-top:10px}
+.contact-path-copy{font-size:16px;line-height:1.4;color:var(--muted);max-width:370px}
+.contact-path-arrow{position:absolute;right:30px;top:28px;font-size:25px;color:var(--pink)}
+@media(max-width:1000px){.positioning{grid-template-columns:1fr;gap:34px;padding-top:88px;padding-bottom:88px}.positioning-copy{max-width:760px}}
+@media(max-width:640px){#work,#profile,#approach{scroll-margin-top:75px}.positioning{padding-top:72px;padding-bottom:78px;gap:28px}.positioning-heading .eyebrow{margin-bottom:20px}.positioning-heading h2{font-size:clamp(42px,11vw,62px)}.positioning-copy>p{font-size:22px;margin-bottom:28px}.positioning-links{gap:20px}.contact-pathways{grid-template-columns:1fr;gap:12px;margin-top:45px}.contact-path{min-height:225px;padding:22px}.contact-path-title{font-size:40px}.contact-path-arrow{right:22px;top:22px}.info-grid{margin-top:55px}}
