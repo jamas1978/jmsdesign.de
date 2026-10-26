@@ -473,3 +473,7 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .contact-cv-intro{font-size:13px;color:var(--muted)}
 .contact-cv .text-link{white-space:nowrap}
 @media(max-width:640px){.contact-cv{align-items:flex-start;flex-direction:column;gap:14px}.contact-cv .text-link{white-space:normal}}
+
+/* Contact: direct personal contact instead of duplicate enquiry cards */
+.info-main .contact-cv{margin-top:clamp(44px,7vw,86px)}
+.info-main .info-grid{margin-top:clamp(42px,6vw,72px)}
