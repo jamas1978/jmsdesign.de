@@ -61,7 +61,7 @@
         ['.work > article:nth-of-type(2) .visual-caption span', ['QVEST','Identität → Anwendung → Konsistenz']],
 
         ['.work > article:nth-of-type(3) .case-meta span', ['03','Internationale Kampagnenadaption','Creative Concept & Art Direction']],
-        ['.work > article:nth-of-type(3) .case-copy > p:nth-of-type(2)', ['Entwicklung der MINI Clubman Kampagne und internationale Adaption, unter anderem für Märkte in Afrika und im Nahen Osten.']],
+        ['.work > article:nth-of-type(3) .case-copy > p:nth-of-type(2)', ['Entwicklung der MINI Clubman Kampagne und internationale Adaption, unter anderem für Märkte in der Karibik, Afrika und der Golfregion.']],
         ['.work > article:nth-of-type(3) .case-tags span', ['Art Direction','Internationale Kampagne','Automotive']],
         ['.work > article:nth-of-type(3) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
         ['.work > article:nth-of-type(3) .case-proof span', ['Agentur · Interone BBDO','Kunde · MINI']],
@@ -163,15 +163,15 @@
       deTitle: 'MINI Clubman — JMS Arbeiten',
       deDescription: 'Internationale Kampagnenadaption für den MINI Clubman von Jan Marko Schneider.',
       one: {
-        '.project-deck': 'Kampagnenentwicklung und internationale Adaption für den MINI Clubman – von kreativen Konzepten bis zu marktspezifischen Umsetzungen in Afrika und im Nahen Osten, einschließlich der Emirate.'
+        '.project-deck': 'Kampagnenentwicklung und internationale Adaption für den MINI Clubman – von kreativen Konzepten bis zu marktspezifischen Umsetzungen in der Karibik, Afrika und der Golfregion, einschließlich Dubai und der Emirate.'
       },
       many: [
         ['.project-meta dt', ['Rolle','Agentur','Kunde']],
         ['.project-story .story-label', ['Herausforderung','Meine Rolle','Vorgehen','Ergebnis']],
         ['.project-story .story-block > p:last-child', [
-          'Für den MINI Clubman ging es nicht nur darum, eine Kampagne zu entwickeln. Die kreative Idee musste auch für unterschiedliche internationale Märkte funktionieren – darunter afrikanische Märkte und der Nahe Osten mit ihren jeweiligen Kommunikationsanforderungen.',
+          'Für den MINI Clubman ging es nicht nur darum, eine Kampagne zu entwickeln. Die kreative Idee musste auch für unterschiedliche internationale Märkte funktionieren – darunter die Karibik, Afrika und die Golfregion mit ihren jeweiligen Kommunikationsanforderungen.',
           'Ich entwickelte eigenständig kreative Richtungen und visuelle Konzepte und verantwortete sowohl Konzeption als auch Gestaltung. Dabei begleitete ich eine Junior Art Directorin fachlich. Die Kundenkommunikation lief über die Agentur.',
-          'Ich entwickelte kreative Richtungen und Kampagnenmotive und adaptierte die Kommunikation anschließend für unterschiedliche Märkte und Formate, darunter Afrika und die Vereinigten Arabischen Emirate. Dabei galt es, lokale Anforderungen zu berücksichtigen und zugleich die eigenständige MINI-Tonalität und Bildsprache zu bewahren.',
+          'Ich entwickelte kreative Richtungen und Kampagnenmotive und adaptierte die Kommunikation anschließend für unterschiedliche Märkte und Formate, darunter die Karibik, Afrika, Dubai und weitere Märkte der Vereinigten Arabischen Emirate. Dabei galt es, lokale Anforderungen zu berücksichtigen und zugleich die eigenständige MINI-Tonalität und Bildsprache zu bewahren.',
           'Das Ergebnis verband Kampagnenentwicklung mit internationaler Marktadaption: eine gemeinsame kreative Richtung, umgesetzt für unterschiedliche regionale Anforderungen.'
         ]],
         ['.case-capabilities .capability-tags span', ['Internationale Kampagnen','Art Direction','Markenadaption','Automotive-Kommunikation','Kampagnen-Rollout','Markenkonsistenz']],
