@@ -31,7 +31,7 @@
         '.capabilities .section-head .section-copy': 'Ich mag Aufgaben, bei denen die Lösung nicht auf der Hand liegt. Ich arbeite mich tief in Themen ein, hinterfrage Zusammenhänge und finde heraus, was für Marke und Zielgruppe wirklich zählt. Daraus entwickle ich klare, eigenständige Ideen und Kampagnen. Und ich erkenne, welcher Ansatz trägt — egal ob er von mir, aus einem Team oder von KI kommt.',
         '.positioning .eyebrow': 'Mehr als Gestaltung',
         '.positioning h2': 'Gute Ideen sind erst der <span>Anfang.</span>',
-        '.positioning-copy > p': 'Über 25 Jahre Erfahrung in Marken- und Unternehmenskommunikation. Ich entwickle kreative Konzepte, verbinde unterschiedliche Disziplinen und übernehme Verantwortung – von der ersten Idee bis zur Umsetzung.',
+        '.positioning-copy > p': 'Über 25 Jahre Erfahrung in Marken- und Unternehmenskommunikation. Ich entwickle kreative Konzepte, verbinde unterschiedliche Disziplinen und übernehme Verantwortung – von der ersten Idee bis zur Umsetzung. Für BMW und MINI habe ich außerdem Kampagnen entwickelt und für Märkte in der Karibik, Afrika und den Vereinigten Arabischen Emiraten adaptiert.',
         '.positioning-links a:nth-child(1)': 'Mehr über mich <span class="external-icon external-icon--down" aria-hidden="true"></span>',
         '.positioning-links a:nth-child(2)': 'Ins Gespräch kommen <span class="external-icon" aria-hidden="true"></span>',
         '.profile-intro .eyebrow': 'Zusammenarbeit',
