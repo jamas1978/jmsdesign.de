@@ -61,7 +61,7 @@
         ['.work > article:nth-of-type(2) .visual-caption span', ['QVEST','Identität → Anwendung → Konsistenz']],
 
         ['.work > article:nth-of-type(3) .case-meta span', ['03','Internationale Kampagnenadaption','Creative Concept & Art Direction']],
-        ['.work > article:nth-of-type(3) .case-copy > p:nth-of-type(2)', ['Adaption einer eigenständigen globalen Kampagne für unterschiedliche Märkte, Sprachen und Retail-Touchpoints — ohne die unverwechselbare MINI-Idee, Tonalität und Bildsprache zu verlieren.']],
+        ['.work > article:nth-of-type(3) .case-copy > p:nth-of-type(2)', ['Eigenständige Entwicklung kreativer Richtungen und Gestaltung der MINI Clubman Kommunikation – mit fachlicher Begleitung einer Junior Art Directorin.']],
         ['.work > article:nth-of-type(3) .case-tags span', ['Art Direction','Internationale Kampagne','Automotive']],
         ['.work > article:nth-of-type(3) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
         ['.work > article:nth-of-type(3) .case-proof span', ['Agentur · Interone BBDO','Kunde · MINI']],
@@ -74,14 +74,14 @@
 
         ['.work > article:nth-of-type(5) .case-meta span', ['05','Mobility-Awareness-Kampagne','Senior Art Director']],
         ['.work > article:nth-of-type(5) .case-copy h3', ['Das <span class="index-accent index-accent--lanxess">Unsichtbare sichtbar machen.</span>']],
-        ['.work > article:nth-of-type(5) .case-copy > p:nth-of-type(2)', ['Ein abstraktes B2B-Thema greifbar machen — LANXESS Materialkompetenz wird über bekannte Mobilitätsanwendungen in ein klares visuelles Kampagnensystem übersetzt.']],
+        ['.work > article:nth-of-type(5) .case-copy > p:nth-of-type(2)', ['Visuelles Kampagnenkonzept gemeinsam mit Liquid Campaign entwickelt – vom Key Visual der grünen Stadt bis zu Motiven, Sonderformaten und Umsetzung.']],
         ['.work > article:nth-of-type(5) .case-tags span', ['Kampagnenentwicklung','Art Direction','B2B']],
         ['.work > article:nth-of-type(5) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
         ['.work > article:nth-of-type(5) .case-proof span', ['Agentur · Liquid Campaign','Kunde · LANXESS']],
 
         ['.work > article:nth-of-type(6) .case-meta span', ['06','B2B-Promotions & Formatentwicklung','Senior Art Director']],
         ['.work > article:nth-of-type(6) .case-copy h3', ['Kommunikation für die <span class="index-accent index-accent--metro">professionelle Gastronomie.</span>']],
-        ['.work > article:nth-of-type(6) .case-copy > p:nth-of-type(2)', ['Kampagnenideen, Produktkommunikation und Promotionsformate für die professionelle Gastronomie — von Küchenausstattung und Kampagnenplattformen bis zu zielgruppenspezifischen Aktivierungen.']],
+        ['.work > article:nth-of-type(6) .case-copy > p:nth-of-type(2)', ['Eigenständige Konzeption und Gestaltung neuer Wege der Sortimentskommunikation – von Mailings und Inhouse-Kampagnen bis zu Promotionsformaten.']],
         ['.work > article:nth-of-type(6) .case-tags span', ['B2B-Kommunikation','Kampagnenentwicklung','Formatentwicklung']],
         ['.work > article:nth-of-type(6) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
         ['.work > article:nth-of-type(6) .case-proof span', ['Agentur · Liquid Campaign','Kunde · METRO / HORECA Select']],
@@ -216,7 +216,7 @@
         ['.project-story .story-block > p:last-child', [
           'Technische Materialien und industrielle Kompetenz bleiben für die Menschen, die davon profitieren, oft unsichtbar. Für LANXESS bestand die kommunikative Herausforderung darin, die Rolle des Unternehmens in der Mobilität greifbar zu machen und zu zeigen, wo seine Materialien in bekannten Produkten und Anwendungen stecken.',
           'Im Auftrag von Liquid Campaign entwickelte ich das visuelle Kampagnenkonzept für LANXESS Green Mobility mit, darunter das Key Visual der grünen Stadt. Ich konzipierte und gestaltete Motive und Sonderformate, begleitete die Umsetzung und war an der Sicherung der gestalterischen Qualität beteiligt.',
-          'Gemeinsam mit Liquid Campaign übersetzte ich das Mobilitätsthema in eine zugängliche visuelle Sprache – vom Key Visual der grünen Stadt bis zu anwendungsbezogenen Motiven und Sonderformaten. Dazu gehörte auch großformatige Außenwerbung, unter anderem in Davos. Wer die übergeordnete Green-Mobility-Idee ursprünglich einbrachte, lässt sich nicht eindeutig zuordnen.',
+          'Gemeinsam mit Liquid Campaign übersetzte ich das Mobilitätsthema in eine zugängliche visuelle Sprache – vom Key Visual der grünen Stadt bis zu anwendungsbezogenen Motiven und Sonderformaten. Dazu gehörte auch großformatige Außenwerbung, unter anderem in Davos.',
           'Die entstandenen Motive und Formate machten ein abstraktes B2B-Thema verständlich und folgten von der Konzeption bis zur Umsetzung einer konsistenten visuellen Linie.'
         ]],
         ['.case-capabilities .capability-tags span', ['B2B-Kommunikation','Kampagnenentwicklung','Art Direction','Technisches Storytelling','Visuelle Kommunikation','Out-of-Home-Kommunikation']],
