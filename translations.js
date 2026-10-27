@@ -38,16 +38,16 @@
         '.profile-intro h2': 'Tief im Thema.<br>Klar in der Idee.<br>Offen im Miteinander.',
         '.profile-aside .aside-label': 'Ausgewählte Stationen',
         '.profile-aside .text-link': 'CV herunterladen (PDF) <span class="external-icon" aria-hidden="true"></span>',
-        '.profile-aside li:first-child em': 'Senior Art Director · Creative Lead in ausgewählten Projekten',
+        '.profile-aside li:first-child em': 'Creative Director (Freelance) · Audi / Palmer Hargreaves',
         '.contact-bottom p': 'Creative Director · Creative Lead<br>Brand & Corporate Communications · Köln',
         '.contact-links a': 'Nach oben ↑'
       },
       many: [
         ['.credibility .stat span', ['Jahre Erfahrung','Jahre bei Palmer Hargreaves','Markenprojekte','Kampagnenerfahrung']],
-        ['.work > article:nth-of-type(1) .case-meta span', ['01','Executive- & Unternehmenskommunikation','Creative Lead']],
+        ['.work > article:nth-of-type(1) .case-meta span', ['01','Executive- & Unternehmenskommunikation','Creative Director (Freelance)']],
         ['.work > article:nth-of-type(1) .case-copy h3', ['Komplexe Business-<span class="index-accent index-accent--audi">Themen klar erzählt.</span>']],
         ['.work > article:nth-of-type(1) .case-copy > p:nth-of-type(2)', ['Creative Leadership für Executive- und Unternehmenskommunikation — komplexe Business-, Transformations- und Technologiethemen werden zu klaren Geschichten und konsistenten visuellen Systemen.']],
-        ['.work > article:nth-of-type(1) .case-tags span', ['Creative Lead','Executive Communications','Corporate Social']],
+        ['.work > article:nth-of-type(1) .case-tags span', ['Creative Direction','Executive Communications','Corporate Social']],
         ['.work > article:nth-of-type(1) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
         ['.work > article:nth-of-type(1) .case-proof span', ['Agentur · Palmer Hargreaves','Kunde · Audi']],
         ['.work > article:nth-of-type(1) .visual-caption span', ['AUDI','Corporate- & Management-Kommunikation']],
@@ -124,7 +124,7 @@
         ['.project-story .story-label', ['Herausforderung','Meine Rolle','Vorgehen','Ergebnis']],
         ['.project-story .story-block > p:last-child', [
           'Die Unternehmenskommunikation von Audi verbindet unterschiedlichste Themen: Geschäftszahlen, Transformation, Technologie, Produkte und die Kommunikation des Managements. Die Herausforderung bestand darin, komplexe Inhalte verständlich und visuell überzeugend über verschiedene Kanäle und Formate hinweg aufzubereiten – innerhalb der klar definierten Audi-Markenwelt.',
-          'Nach dem erfolgreichen Pitch war ich über rund drei Jahre kontinuierlich in das Audi-Team von Palmer Hargreaves eingebunden und verantwortete die kreative und gestalterische Richtung der von uns betreuten Kommunikationsprojekte. Ich entwickelte Konzepte, gab die gestalterische Richtung vor und begleitete die Umsetzung mit einer Art Directorin, einer Designerin und einem Reinzeichner. Dabei arbeitete ich eng mit Text, Redaktion und Kundenberatung zusammen. Ideen und Gestaltungslösungen präsentierte ich direkt bei Audi und den beteiligten Fachbereichen.',
+          'Nach dem erfolgreichen Pitch war ich über rund drei Jahre als freier Creative Director in die Audi-Projekte bei Palmer Hargreaves eingebunden. Ich verantwortete die kreative und gestalterische Richtung der von uns betreuten Kommunikationsprojekte, entwickelte Konzepte und führte eine Art Directorin, eine Designerin und einen Reinzeichner fachlich durch die Umsetzung. In enger Zusammenarbeit mit Text, Redaktion und Kundenberatung präsentierte und vertrat ich die kreativen Richtungen direkt in Kundenterminen mit Audi und den beteiligten Fachbereichen.',
           'Vor dem ersten Entwurf klärte ich gemeinsam mit dem Kunden die eigentliche Kommunikationsaufgabe: Was muss ankommen, bei wem und in welchem Format? Darauf aufbauend entwickelte ich kreative Ansätze, stimmte sie mit Text, Redaktion und Kundenberatung ab und gab dem Team eine gemeinsame gestalterische Orientierung für die Umsetzung. So konnten unterschiedliche Perspektiven einfließen, während Verständlichkeit, Qualität und die Audi-Markenwelt die Leitplanken blieben — von Managementpräsentationen über die Jahrespressekonferenz bis zu Finanzkommunikation und Social Media.',
           'Über drei Jahre entstanden im Team zahlreiche Kommunikationsformate, die komplexe Inhalte verständlich, konsistent und markengerecht vermittelten. Die kontinuierliche Zusammenarbeit gab mir die Möglichkeit, über einzelne Entwürfe hinaus kreative Entscheidungen mitzugestalten und für eine gemeinsame visuelle Richtung der betreuten Projekte zu sorgen.'
         ]],
