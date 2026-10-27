@@ -38,7 +38,7 @@
         '.profile-intro h2': 'Tief im Thema.<br>Klar in der Idee.<br>Offen im Miteinander.',
         '.profile-aside .aside-label': 'Ausgewählte Stationen',
         '.profile-aside .text-link': 'CV herunterladen (PDF) <span class="external-icon" aria-hidden="true"></span>',
-        '.profile-aside li:first-child em': 'Creative Director (Freelance) · Audi / Palmer Hargreaves',
+        '.profile-aside li:first-child em': 'Creative Director (Freelance)',
         '.contact-bottom p': 'Creative Director · Creative Lead<br>Brand & Corporate Communications · Köln',
         '.contact-links a': 'Nach oben ↑'
       },
