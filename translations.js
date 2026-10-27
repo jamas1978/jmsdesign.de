@@ -60,7 +60,7 @@
         ['.work > article:nth-of-type(2) .case-proof span', ['Implementierung auf Kundenseite','Kunde · QVEST']],
         ['.work > article:nth-of-type(2) .visual-caption span', ['QVEST','Identität → Anwendung → Konsistenz']],
 
-        ['.work > article:nth-of-type(3) .case-meta span', ['03','Internationale Kampagnenadaption','Art Director']],
+        ['.work > article:nth-of-type(3) .case-meta span', ['03','Internationale Kampagnenadaption','Creative Concept & Art Direction']],
         ['.work > article:nth-of-type(3) .case-copy > p:nth-of-type(2)', ['Adaption einer eigenständigen globalen Kampagne für unterschiedliche Märkte, Sprachen und Retail-Touchpoints — ohne die unverwechselbare MINI-Idee, Tonalität und Bildsprache zu verlieren.']],
         ['.work > article:nth-of-type(3) .case-tags span', ['Art Direction','Internationale Kampagne','Automotive']],
         ['.work > article:nth-of-type(3) .case-link', ['Case ansehen <span class="external-icon" aria-hidden="true"></span>']],
@@ -163,16 +163,16 @@
       deTitle: 'MINI Clubman — JMS Arbeiten',
       deDescription: 'Internationale Kampagnenadaption für den MINI Clubman von Jan Marko Schneider.',
       one: {
-        '.project-deck': 'Internationale Launch-Kommunikation, die MINI-Idee, Bildsprache und Tonalität konsistent hielt und die Kampagne zugleich für unterschiedliche Märkte und Motive adaptierte.'
+        '.project-deck': 'Konzeption und Art Direction für die MINI Clubman Launch-Kommunikation – von eigenständig entwickelten kreativen Richtungen bis zur Umsetzung über verschiedene Märkte und Formate.'
       },
       many: [
         ['.project-meta dt', ['Rolle','Agentur','Kunde']],
         ['.project-story .story-label', ['Herausforderung','Meine Rolle','Vorgehen','Ergebnis']],
         ['.project-story .story-block > p:last-child', [
           'Eine internationale Launch-Kampagne muss unverkennbar zur Marke gehören und zugleich für unterschiedliche Märkte, Sprachen und Retail-Umfelder funktionieren. Beim MINI Clubman bestand die Herausforderung darin, die eigenständige globale Kampagnenidee und die typische MINI-Tonalität über lokale Umsetzungen hinweg zu bewahren.',
-          'Als Art Director arbeitete ich an der internationalen Adaption der MINI Clubman Launch-Kampagne. Meine Verantwortung war es, Kampagnenidee, Bildsprache und Tonalität konsistent zu halten und gleichzeitig die Anforderungen verschiedener Märkte und Formate zu berücksichtigen.',
-          'Ausgangspunkt war eine bestehende internationale Kampagnenidee, kein leeres Blatt. Entscheidend war für mich, was sie unverkennbar zu MINI machte: Tonalität, Bildsprache und die zentrale kreative Idee. Diese Elemente galt es über unterschiedliche Motive, Sprachen und Retail-Formate hinweg zu bewahren und dort anzupassen, wo es der jeweilige Markt erforderte — ohne die verbindende Kampagnenidee zu verwässern.',
-          'Das Ergebnis war ein konsistentes internationales Kampagnensystem, das den MINI Clubman über Märkte hinweg adaptierbar machte, ohne den charakteristischen Markenkern zu verlieren.'
+          'Ich entwickelte eigenständig kreative Richtungen und visuelle Konzepte und verantwortete sowohl Konzeption als auch Gestaltung. Dabei begleitete ich eine Junior Art Directorin fachlich. Die Kundenkommunikation lief über die Agentur.',
+          'Die Arbeit verband eigenständige kreative Entwicklung mit den Anforderungen einer internationalen Marke. Ich erarbeitete unterschiedliche visuelle Ansätze, überführte sie in Kampagnenmotive und Formate und achtete auf eine konsistente MINI-Tonalität und Bildsprache.',
+          'So entstanden unterschiedliche Kampagnenumsetzungen für den MINI Clubman, die eigenständig entwickelte kreative Ansätze mit einer einheitlichen Markenkommunikation verbanden.'
         ]],
         ['.case-capabilities .capability-tags span', ['Internationale Kampagnen','Art Direction','Markenadaption','Automotive-Kommunikation','Kampagnen-Rollout','Markenkonsistenz']],
         ['.gallery-head h2', ['Eine Idee.<br>Vier Ausprägungen.']],
@@ -215,9 +215,9 @@
         ['.project-story .story-label', ['Herausforderung','Meine Rolle','Vorgehen','Ergebnis']],
         ['.project-story .story-block > p:last-child', [
           'Technische Materialien und industrielle Kompetenz bleiben für die Menschen, die davon profitieren, oft unsichtbar. Für LANXESS bestand die kommunikative Herausforderung darin, die Rolle des Unternehmens in der Mobilität greifbar zu machen und zu zeigen, wo seine Materialien in bekannten Produkten und Anwendungen stecken.',
-          'Als Senior Art Director bei Liquid Campaign verantwortete ich Kampagnenentwicklung und visuelle Richtung der Kommunikation. Meine Aufgabe war es, ein abstraktes und technisch komplexes Thema in eine visuelle Geschichte zu übersetzen, die schnell verständlich ist.',
-          'Der kreative Ausgangspunkt war nicht die technische Eigenschaft eines Materials, sondern eine Anwendung, die Menschen wiedererkennen. Indem ich die Materialien von LANXESS mit vertrauten Mobilitätsprodukten verband, bekam ein komplexes B2B-Thema einen verständlichen visuellen Einstieg. Daraus entwickelte ich eine Motivfamilie, die von Kampagnenbildern bis zur großformatigen Außenwerbung in Davos funktionierte, ohne ihre Kernaussage zu verlieren.',
-          'Das Ergebnis war eine Kampagne, die einem abstrakten B2B-Thema eine klare und zugängliche visuelle Erzählung gab und eine konsistente Kommunikationsplattform für unterschiedliche Anwendungen schuf.'
+          'Im Auftrag von Liquid Campaign entwickelte ich das visuelle Kampagnenkonzept für LANXESS Green Mobility mit, darunter das Key Visual der grünen Stadt. Ich konzipierte und gestaltete Motive und Sonderformate, begleitete die Umsetzung und war an der Sicherung der gestalterischen Qualität beteiligt.',
+          'Gemeinsam mit Liquid Campaign übersetzte ich das Mobilitätsthema in eine zugängliche visuelle Sprache – vom Key Visual der grünen Stadt bis zu anwendungsbezogenen Motiven und Sonderformaten. Dazu gehörte auch großformatige Außenwerbung, unter anderem in Davos. Wer die übergeordnete Green-Mobility-Idee ursprünglich einbrachte, lässt sich nicht eindeutig zuordnen.',
+          'Die entstandenen Motive und Formate machten ein abstraktes B2B-Thema verständlich und folgten von der Konzeption bis zur Umsetzung einer konsistenten visuellen Linie.'
         ]],
         ['.case-capabilities .capability-tags span', ['B2B-Kommunikation','Kampagnenentwicklung','Art Direction','Technisches Storytelling','Visuelle Kommunikation','Out-of-Home-Kommunikation']],
         ['.gallery-head h2', ['Materialien.<br>Sichtbar gemacht.']],
@@ -238,7 +238,7 @@
         ['.project-story .story-label', ['Herausforderung','Meine Rolle','Vorgehen','Ergebnis']],
         ['.project-story .story-block > p:last-child', [
           'HORECA Select richtete sich an professionelle Kunden mit sehr unterschiedlichen Anforderungen innerhalb der Gastronomie. Die Kommunikation musste deshalb über eine einzelne Produktkategorie oder Promotion hinaus funktionieren — von professioneller Küchenausstattung bis zu konkreten Geschäftssituationen und Zielgruppen.',
-          'Als Senior Art Director bei Liquid Campaign arbeitete ich an Kampagnenideen, Produktkommunikation und Promotionsformaten für METRO / HORECA Select. Meine Rolle verband Konzeptentwicklung und Art Direction mit der Übersetzung von Sortimenten und kommerziellen Angeboten in relevante Kommunikation für professionelle Kunden.',
+          'Für Liquid Campaign verantwortete ich Konzeption und Gestaltung unterschiedlicher Kommunikationsansätze für METRO / HORECA Select. Die Aufgabe war, neue Wege zu entwickeln, Produkte und Sortimente zu bewerben – von Mailings und Inhouse-Kampagnen über Flyer bis zu ungewöhnlichen Promotionsformaten.',
           'Professionelle Gastronomie ist keine einheitliche Zielgruppe. Eine Hotelküche hat andere Anforderungen als ein Pizza- oder Lieferbetrieb — und die Kommunikation muss darauf eingehen. Diese Perspektive prägte die Arbeit an der Professional Kitchen Line, The Chefs’ Choice und zielgruppenspezifischen Promotions, bei denen etwa der Pizzakarton zum Kommunikationsmedium wurde. Statt einer allgemeinen Handelsbotschaft entstand so für jeden Anwendungsfall ein passendes Format mit klarem Produktbezug.',
           'Das Ergebnis war ein breites Spektrum an B2B-Kommunikation, das Produkte und Services von HORECA Select mit unterschiedlichen professionellen Anwendungssituationen verband, statt auf eine generische Handelsbotschaft zu setzen.'
         ]],
