@@ -169,21 +169,24 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .legal-copy .external-icon{margin-left:.15em}
 
 
-/* Case-specific external-link colours */
-/* Homepage: the external-link icon takes the accent colour of the case it opens. */
-.case-link[href="cases/audi.html"] .external-icon{background:#e3283a}
-.case-link[href="cases/qvest.html"] .external-icon{background:#ef4a16}
-.case-link[href="cases/mini.html"] .external-icon{background:#8a3f2b}
-.case-link[href="cases/cap-anamur.html"] .external-icon{background:#079fd7}
-.case-link[href="cases/telekom.html"] .external-icon{background:#e20074}
+/* Match the accent to the destination for both language routes and legacy preview links. */
+:is(.case-link,.project-next a):is([href$="/audi"],[href$="audi.html"]) .external-icon{background:#e3283a}
+:is(.case-link,.project-next a):is([href$="/qvest"],[href$="qvest.html"]) .external-icon{background:#ef4a16}
+:is(.case-link,.project-next a):is([href$="/mini"],[href$="mini.html"]) .external-icon{background:#8a3f2b}
+:is(.case-link,.project-next a):is([href$="/cap-anamur"],[href$="cap-anamur.html"]) .external-icon{background:#079fd7}
+:is(.case-link,.project-next a):is([href$="/lanxess"],[href$="lanxess.html"]) .external-icon,.archive-case-link .external-icon{background:#c51a32}
+:is(.case-link,.project-next a):is([href$="/metro"],[href$="metro.html"]) .external-icon{background:#353184}
+:is(.case-link,.project-next a)[href$="telekom.html"] .external-icon{background:#e20074}
 
-/* Case pages: "Next project" icon previews the accent colour of the destination case. */
-.project-next a[href="audi.html"] .external-icon{background:#e3283a}
-.project-next a[href="qvest.html"] .external-icon{background:#ef4a16}
-.project-next a[href="mini.html"] .external-icon{background:#8a3f2b}
-.project-next a[href="cap-anamur.html"] .external-icon{background:#079fd7}
-.project-next a[href="telekom.html"] .external-icon{background:#e20074}
-
+/* Keep the blue arrow legible on Cap Anamur's blue card. */
+.case-link-icon-tile{
+  display:inline-grid;
+  place-items:center;
+  padding:3px;
+  border-radius:4px;
+  background:#fff;
+}
+.case-link:hover .case-link-icon-tile .external-icon{transform:none}
 
 /* Work-link directional icon */
 .text-link .external-icon--down{transform:rotate(90deg)}
@@ -199,8 +202,6 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .case-lanxess-page .project-feature img,.case-metro-page .project-feature img{min-height:0;max-height:80vh;object-fit:contain;padding:3vw}
 .campaign-gallery .gallery-card{min-height:0;background:#e8e6e0;display:flex;align-items:center}
 .campaign-gallery .gallery-card img{height:auto;max-height:760px;object-fit:contain;padding:24px}
-.case-link[href="cases/lanxess.html"] .external-icon,.project-next a[href="lanxess.html"] .external-icon,.archive-case-link .external-icon{background:#c51a32}
-.case-link[href="cases/metro.html"] .external-icon,.project-next a[href="metro.html"] .external-icon{background:#353184}
 .project-back .external-icon{background:var(--case-accent,currentColor);transform:rotate(180deg)}
 .archive-case-link{display:block;border-radius:22px}
 .archive-case-link:focus-visible,.language-switch a:focus-visible{outline:2px solid var(--pink);outline-offset:6px}
@@ -477,19 +478,12 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 /* Contact: direct personal contact instead of duplicate enquiry cards */
 .info-main .contact-cv{margin-top:clamp(44px,7vw,86px)}
 .info-main .info-grid{margin-top:clamp(42px,6vw,72px)}
-/* The lead project shares the first screen with the Creative Lead introduction. */
-.portfolio-home .hero{min-height:0;display:block;padding-top:clamp(98px,10vw,145px);padding-bottom:clamp(48px,7vw,100px)}
-.portfolio-home .hero-lead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,90px);align-items:center;margin-top:clamp(28px,4vw,70px)}
-.portfolio-home .hero-title{font-size:clamp(47px,5.8vw,104px);line-height:.94;margin:12px 0 24px;text-wrap:balance}
-.portfolio-home .hero-intro{font-size:clamp(17px,1.55vw,24px);line-height:1.35;max-width:39ch}
-.hero-role{font-size:clamp(13px,1.15vw,17px);font-weight:700;margin:0}
-.hero-actions{display:flex;flex-wrap:wrap;gap:14px 22px;margin-top:27px}
-.hero-actions .text-link{font-size:14px}
-.hero-project{margin:0;min-width:0}
-.hero-project>a{display:block}
-.hero-project img{display:block;width:100%;height:auto;border-radius:14px;background:#18181b}
-.hero-project figcaption{font-size:13px;line-height:1.35;padding-top:10px;color:var(--muted)}
-.hero-project figcaption a{border-bottom:1px solid currentColor}
+/* The language switch adds a row above the original typography-led hero. */
+.portfolio-home .hero{grid-template-rows:auto auto 1fr auto}
+@media(max-width:640px){
+  html[lang="en"] .portfolio-home .hero-title{font-size:clamp(39px,12.6vw,80px);line-height:.86}
+}
+
 .portfolio-home .work{padding-top:clamp(38px,5vw,80px);border-top:1px solid var(--line)}
 .portfolio-home .work .section-head{margin-bottom:clamp(28px,5vw,65px)}
 .portfolio-home .work .section-head h2{font-size:clamp(36px,5vw,78px);line-height:1}
@@ -498,7 +492,7 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .case-results{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-top:24px;padding-bottom:24px;margin-bottom:38px}
 .case-results p{margin:0;font-size:clamp(14px,1.55vw,21px);line-height:1.25}
 .case-results strong{display:block;font-size:clamp(26px,4vw,58px);line-height:1.04;letter-spacing:-.04em;margin-bottom:6px}
-@media(max-width:767px){.portfolio-home .hero-lead{grid-template-columns:1fr;gap:25px}.portfolio-home .hero-title{font-size:clamp(42px,10.8vw,72px);margin-bottom:16px}.hero-actions{margin-top:18px}.hero-project img{border-radius:10px}.case-results{gap:11px}}
+@media(max-width:767px){.case-results{gap:11px}}
 .portfolio-home .work .section-head{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:end}
 .portfolio-home .profile-intro{display:block;margin-bottom:clamp(32px,5vw,85px)}
 #audi-concept{scroll-margin-top:105px}
