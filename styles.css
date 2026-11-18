@@ -503,3 +503,25 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .portfolio-home .profile-intro{display:block;margin-bottom:clamp(32px,5vw,85px)}
 #audi-concept{scroll-margin-top:105px}
 @media(max-width:767px){.portfolio-home .work .section-head{grid-template-columns:1fr;gap:14px}#audi-concept{scroll-margin-top:80px}}
+
+/* Reserve the existing image slots when the browser selects a WebP source. */
+.project-feature > picture,
+.gallery-card > picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.project-story .story-label {
+  color: var(--ink);
+  font-size: clamp(22px, 2.1vw, 32px);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  text-transform: none;
+  margin: 0 0 12px;
+}
+
+.project-story .story-block:last-child {
+  border-top: 2px solid var(--case-accent, var(--pink));
+}
