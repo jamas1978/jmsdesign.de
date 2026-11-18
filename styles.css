@@ -522,3 +522,44 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .project-story .story-block:last-child {
   border-top: 2px solid var(--case-accent, var(--pink));
 }
+
+/* Experience and selected brands between the introduction and the cases. */
+.experience-strip {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 16px clamp(24px, 5vw, 76px);
+  padding-block: clamp(20px, 2.8vw, 38px);
+  border-top: 1px solid var(--line);
+}
+
+.experience-tenure {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.experience-tenure strong {
+  font-size: clamp(35px, 4vw, 60px);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -.055em;
+}
+
+.experience-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px clamp(11px, 1.6vw, 23px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(11px, 1vw, 14px);
+  font-weight: 700;
+  color: #333138;
+}
+
+@media (max-width: 640px) {
+  .experience-strip { grid-template-columns: minmax(0, 1fr); }
+}
