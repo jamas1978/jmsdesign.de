@@ -11,9 +11,8 @@ if (header) {
   }, { passive: true });
 }
 
-if (reduced) {
-  reveals.forEach(el => el.classList.add('in'));
-} else {
+if (!reduced && 'IntersectionObserver' in window) {
+  document.documentElement.classList.add('has-reveal-motion');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -61,20 +60,10 @@ if (reduced) {
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 767) {
+    if (window.matchMedia('(min-width: 1001px)').matches) {
       closeMenu();
     } else if (toggle.getAttribute('aria-expanded') === 'true') {
       positionMenu();
     }
   });
-})();
-
-
-/* Load the central language layer relative to this script, so it also works on /cases/. */
-(() => {
-  const current = document.currentScript;
-  const base = current && current.src ? current.src.replace(/script\.js(?:\?.*)?$/, '') : '';
-  const i18n = document.createElement('script');
-  i18n.src = base + 'translations.js?v=261026-case-approach-v1';
-  document.body.appendChild(i18n);
 })();
