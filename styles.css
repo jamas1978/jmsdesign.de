@@ -480,6 +480,9 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
 .info-main .info-grid{margin-top:clamp(42px,6vw,72px)}
 /* The language switch adds a row above the original typography-led hero. */
 .portfolio-home .hero{grid-template-rows:auto auto 1fr auto}
+@media(min-width:641px){
+  html[lang="de"] .portfolio-home .hero-title{font-size:clamp(56px,9.9vw,165px)}
+}
 @media(max-width:640px){
   html[lang="en"] .portfolio-home .hero-title{font-size:clamp(39px,12.6vw,80px);line-height:.86}
 }
