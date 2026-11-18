@@ -523,29 +523,44 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
   border-top: 2px solid var(--case-accent, var(--pink));
 }
 
-/* Experience and selected brands between the introduction and the cases. */
+/* Experience, focus areas and selected brands above the cases. */
 .experience-strip {
   display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  align-items: center;
-  gap: 16px clamp(24px, 5vw, 76px);
-  padding-block: clamp(20px, 2.8vw, 38px);
+  gap: clamp(14px, 2vw, 25px);
+  padding-block: clamp(20px, 3vw, 42px);
   border-top: 1px solid var(--line);
 }
 
-.experience-tenure {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
+.experience-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(10px, 2.5vw, 32px);
   margin: 0;
-  font-size: 14px;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(12px, 1.2vw, 16px);
 }
 
-.experience-tenure strong {
+.experience-metrics li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.experience-metrics strong {
   font-size: clamp(35px, 4vw, 60px);
   font-weight: 600;
   line-height: 1;
   letter-spacing: -.055em;
+}
+
+.experience-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px clamp(15px, 3vw, 40px);
+  margin: 0;
+  font-size: clamp(13px, 1.3vw, 17px);
+  font-weight: 600;
 }
 
 .experience-brands {
@@ -558,8 +573,4 @@ img{image-rendering:auto;-ms-interpolation-mode:bicubic}
   font-size: clamp(11px, 1vw, 14px);
   font-weight: 700;
   color: #333138;
-}
-
-@media (max-width: 640px) {
-  .experience-strip { grid-template-columns: minmax(0, 1fr); }
 }
